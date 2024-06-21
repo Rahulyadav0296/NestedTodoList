@@ -1,0 +1,96 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.section {
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #218838;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.task-item p {
+  margin: 0;
+  flex: 1;
+}
+
+.task-item button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item button:nth-child(2) {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-item button:nth-child(2):hover {
+  background-color: #0056b3;
+}
+
+.task-item button:nth-child(3) {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task-item button:nth-child(3):hover {
+  background-color: #e0a800;
+}
